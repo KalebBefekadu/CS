@@ -1,0 +1,13 @@
+public class maxnum {
+   public static void main(String[] args) {
+      
+      System.out.println( maxreturn(15,5));
+   }
+   
+   public static int maxreturn(int x,int y){
+      while (x>y){
+         return x;
+   }
+      return y;
+   }     
+}
